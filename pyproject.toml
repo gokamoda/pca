@@ -1,7 +1,7 @@
 [project]
-name = "template"
+name = "pca"
 version = "0.1.0"
-description = "Add your description here"
+description = "Understanding pca"
 authors = [
     { name = "gokamoda", email = "gokamoda@gmail.com"}
 ]
@@ -9,11 +9,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "rich>=13.9.4",
-    "hydra-core>=1.3.2",
-    "pytz>=2025.2",
-    "tqdm>=4.67.1",
-    "multiprocess>=0.70.18",
+    "scikit-learn>=1.7.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.5",
 ]
 
 
